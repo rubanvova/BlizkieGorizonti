@@ -1,0 +1,11 @@
+@import url(../../fonts/lato.css);
+
+.box {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  color: #161616;
+  white-space: pre-wrap;
+}
