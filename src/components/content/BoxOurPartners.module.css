@@ -1,0 +1,42 @@
+.wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.boxText {
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.text {
+  max-width: 769px;
+}
+.images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.imageOne {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.imageTwo {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}

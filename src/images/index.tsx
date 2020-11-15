@@ -8,6 +8,8 @@ import icon4 from './icon4.png';
 import leaf from './leaf.png';
 import photo1 from './photo1.png';
 import photo2 from './photo2.png';
+import image1 from './image1.png';
+import image2 from './image2.png';
 
 const images = {
   login,
@@ -20,6 +22,8 @@ const images = {
   leaf,
   photo1,
   photo2,
+  image1,
+  image2,
 };
 
 export default images;
