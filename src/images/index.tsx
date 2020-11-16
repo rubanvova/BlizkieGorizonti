@@ -10,6 +10,8 @@ import photo1 from './photo1.png';
 import photo2 from './photo2.png';
 import image1 from './image1.png';
 import image2 from './image2.png';
+import arrow from './arrow.png';
+import close from './close.png';
 
 const images = {
   login,
@@ -24,6 +26,8 @@ const images = {
   photo2,
   image1,
   image2,
+  arrow,
+  close,
 };
 
 export default images;
