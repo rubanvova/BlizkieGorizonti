@@ -5,6 +5,7 @@ import BoxOurPartners from './BoxOurPartners';
 import BoxPartnership from './BoxPartnership';
 import BoxReviews from './BoxReviews';
 import BoxQuestions from './BoxQuestions';
+import BoxForm from './BoxForm';
 
 import styles from './Content.module.css';
 
@@ -16,6 +17,7 @@ const Content = () => {
       <BoxOurPartners />
       <BoxReviews />
       <BoxQuestions />
+      <BoxForm />
     </div>
   );
 };
