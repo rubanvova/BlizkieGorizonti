@@ -46,6 +46,11 @@
   cursor: pointer;
 }
 
+.cicrle:hover {
+  width: 57px;
+  height: 57px;
+}
+
 .review {
   display: flex;
   align-items: center;
