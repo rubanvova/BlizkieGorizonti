@@ -59,7 +59,6 @@ const Reviews: React.FC<reviwsProps> = ({
   handler,
 }) => {
   const [show, setShow] = useState(false);
-  console.log(id === active);
 
   useEffect(() => {
     if (active === id) {
@@ -69,10 +68,16 @@ const Reviews: React.FC<reviwsProps> = ({
     }
   }, [active]);
 
+  const circleSizeActive = show ? '57px' : '';
+
   return (
     <>
       <div className={styles.review}>
-        <div className={styles.cicrle} onClick={() => handler(id)}></div>
+        <div
+          className={styles.cicrle}
+          style={{ width: circleSizeActive, height: circleSizeActive }}
+          onClick={() => handler(id)}
+        ></div>
         {show && (
           <div className={styles.reviwtext}>
             <Text classNames={styles.name}>{name}</Text>
