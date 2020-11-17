@@ -66,6 +66,7 @@ const Reviews: React.FC<reviwsProps> = ({
     } else if (active !== id) {
       setShow(false);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [active]);
 
   const circleSizeActive = show ? '57px' : '';
