@@ -1,0 +1,31 @@
+.panel {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.href {
+  font-size: 16px;
+  font-weight: 600 !important;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.loginbox {
+  display: flex;
+  cursor: pointer;
+}
+
+.login {
+  color: #4277ff;
+  margin-left: 10px;
+}
+
+.nav {
+  margin: 0px 135px;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

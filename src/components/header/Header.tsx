@@ -2,25 +2,16 @@ import React from 'react';
 
 import images from '../../images';
 import Text from '../Text';
+import BoxNav from './BoxNav';
+
 import styles from './Header.module.css';
 
-const Header = () => {
+const Header: React.FC = () => {
   return (
     <div className={styles.headerWrapper}>
       <div className={styles.header}>
         <div className={styles.nav}>
-          <img src={images.logo} alt="" height="56px" width="196px" />
-          <div className={styles.panel}>
-            <Text classNames={styles.href}>Инвестиционная секция</Text>
-            <Text classNames={styles.href}>Торговая секция</Text>
-            <Text classNames={styles.href}>Сервисы</Text>
-            <Text classNames={styles.href}>Блоги</Text>
-            <Text classNames={styles.href}>О платформе</Text>
-          </div>
-          <div className={styles.loginbox}>
-            <img src={images.login} alt="" height="18px" width="18px" />
-            <div className={styles.login}>Войти</div>
-          </div>
+          <BoxNav />
         </div>
       </div>
       <div className={styles.frame}>
