@@ -4,7 +4,7 @@ import Text from '../Text';
 
 import styles from './BoxCraeted.module.css';
 
-const BoxCraeted = () => {
+const BoxCraeted: React.FC = () => {
   return (
     <div className={styles.text}>
       <Text bold classNames={styles.text}>

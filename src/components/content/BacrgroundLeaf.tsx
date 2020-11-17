@@ -3,7 +3,7 @@ import images from '../../images';
 
 // import styles from './BacrgroundLeaf.module.css';
 
-const BacrgroundLeaf = () => {
+const BacrgroundLeaf: React.FC = () => {
   return <img src={images.leaf} alt="" />;
 };
 

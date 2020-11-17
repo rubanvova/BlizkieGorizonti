@@ -9,7 +9,7 @@ import BoxForm from './BoxForm';
 
 import styles from './Content.module.css';
 
-const Content = () => {
+const Content: React.FC = () => {
   return (
     <div className={styles.contentWrapper}>
       <BoxAdvantages />

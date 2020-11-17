@@ -51,7 +51,7 @@ const Box: React.FC<boxProps> = ({ img, title, text }) => {
   );
 };
 
-const BoxAdvantages = () => {
+const BoxAdvantages: React.FC = () => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.leaf}>

@@ -39,7 +39,7 @@ const Box: React.FC<boxProps> = ({ img, text, title }) => {
   );
 };
 
-const BoxPartnership = () => {
+const BoxPartnership: React.FC = () => {
   return (
     <div className={styles.wrapper}>
       <Text bold classNames={styles.chapter}>

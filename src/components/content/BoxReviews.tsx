@@ -90,7 +90,7 @@ const Reviews: React.FC<reviwsProps> = ({
   );
 };
 
-const BoxReviews = () => {
+const BoxReviews: React.FC = () => {
   const [active, setActive] = useState<number>(2);
 
   const handler = (id: number) => {
