@@ -1,0 +1,19 @@
+.wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+  height: 600px;
+}
+
+.boxs {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 200px;
+}
+
+.img {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  filter: grayscale(100%);
+}
