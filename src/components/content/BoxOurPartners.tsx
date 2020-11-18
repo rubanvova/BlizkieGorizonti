@@ -5,7 +5,7 @@ import Text from '../Text';
 
 import styles from './BoxOurPartners.module.css';
 
-const BoxOurPartners = () => {
+const BoxOurPartners: React.FC = () => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.boxText}>
