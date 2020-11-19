@@ -30,7 +30,7 @@ type boxProps = {
 const Box: React.FC<boxProps> = ({ img, text, title }) => {
   return (
     <div className={styles.box}>
-      <img src={img} alt="" />
+      <img src={img} alt="" className={styles.imgbox} />
       <div className={styles.body}>
         <Text bold>{title}</Text>
         <Text classNames={styles.text}>{text}</Text>
