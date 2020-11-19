@@ -17,3 +17,30 @@
   align-items: flex-end;
   filter: grayscale(100%);
 }
+
+@media (max-width: 1206px) {
+  .boxs {
+    margin: 0px 20px;
+  }
+}
+
+@media (max-width: 1206px) {
+  .boxs {
+    flex-wrap: wrap;
+    /* max-width: 500px; */
+  }
+}
+
+@media (max-width: 855px) {
+  .boxs {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 450px) {
+  .boxs {
+    max-width: 200px;
+    margin: 0 auto;
+  }
+}

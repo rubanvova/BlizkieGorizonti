@@ -18,13 +18,13 @@
 
 .chapter {
   font-size: 36px;
+  line-height: 36px;
   color: #ffffff;
   display: flex;
 }
 
 .chapterText {
   max-width: 769px;
-  height: 48px;
   color: #ffffff;
   padding-top: 20px;
 }
@@ -80,23 +80,21 @@
   background: #840be7cb;
 }
 
+.inputs {
+  position: relative;
+}
 .wrapperModal {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  height: 100%;
-  background-color: #ffffffbe;
+  display: flex;
+  justify-content: center;
 }
 
 .modal {
   display: flex;
   flex-direction: column;
   position: absolute;
-  left: 540px;
-  top: 200px;
-  width: 350px;
-  height: 40%;
+  top: 20px;
+  width: 310px;
+  min-height: 100%;
   border: 1px solid rgb(120, 165, 231);
   border-radius: 10px;
   background: #ffffff;
@@ -121,4 +119,36 @@
 
 .buttonOk:hover {
   box-shadow: 0px 4px 30px rgba(83, 85, 88, 0.562);
+}
+
+@media (max-width: 793px) {
+  .container {
+    margin: 0px 20px;
+  }
+  .rowOne {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px auto;
+    margin-top: 30px;
+  }
+  .rowTwo {
+    margin: 20px 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .boxChapter {
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 544px) {
+  .wrapper {
+    min-height: 740px;
+  }
+}
+
+@media (max-width: 416px) {
+  .input {
+    width: 100%;
+  }
 }

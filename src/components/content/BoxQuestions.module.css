@@ -59,3 +59,9 @@
 .text {
   white-space: pre-wrap;
 }
+
+@media (max-width: 1214px) {
+  .wrapper {
+    margin: 100px 20px;
+  }
+}

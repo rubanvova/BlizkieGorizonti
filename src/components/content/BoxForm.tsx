@@ -96,6 +96,21 @@ const BoxForm: React.FC = () => {
               place="companyadress.com"
             />
           </div>
+          {showModal && (
+            <div className={styles.wrapperModal}>
+              <div className={styles.modal}>
+                <div className={styles.textModal}>
+                  <Text>ФИО:{dataInputs.name} </Text>
+                  <Text>Контактный телефон:{dataInputs.tel} </Text>
+                  <Text>Электронная почта:{dataInputs.email} </Text>
+                  <Text>Сайт компании:{dataInputs.web} </Text>
+                  <button className={styles.buttonOk} onClick={closeModal}>
+                    OK
+                  </button>
+                </div>
+              </div>
+            </div>
+          )}
         </div>
         <div className={styles.boxButton}>
           <button
@@ -105,21 +120,6 @@ const BoxForm: React.FC = () => {
             Стать партнёром
           </button>
         </div>
-        {showModal && (
-          <div className={styles.wrapperModal}>
-            <div className={styles.modal}>
-              <div className={styles.textModal}>
-                <Text>ФИО:{dataInputs.name} </Text>
-                <Text>Контактный телефон:{dataInputs.tel} </Text>
-                <Text>Электронная почта:{dataInputs.email} </Text>
-                <Text>Сайт компании:{dataInputs.web} </Text>
-                <button className={styles.buttonOk} onClick={closeModal}>
-                  OK
-                </button>
-              </div>
-            </div>
-          </div>
-        )}
       </div>
     </div>
   );

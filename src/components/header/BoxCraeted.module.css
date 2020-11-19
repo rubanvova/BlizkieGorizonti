@@ -2,6 +2,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
-  margin-left: 180px;
+  margin: 100px auto;
+}
+
+@media (max-width: 616px) {
+  .text {
+    margin: 50px;
+  }
 }
