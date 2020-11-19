@@ -12,8 +12,10 @@ import image1 from './image1.png';
 import image2 from './image2.png';
 import arrow from './arrow.png';
 import close from './close.png';
+import menu from './menu.png';
 
 const images = {
+  menu,
   login,
   logo,
   photo,

@@ -29,3 +29,56 @@
   align-items: center;
   justify-content: space-between;
 }
+
+.burger {
+  display: none;
+}
+
+.burgerMenu {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  overflow-x: hidden;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(214, 221, 221, 0.966);
+  z-index: 4;
+}
+.close {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.hrefMenu {
+  margin-left: 30px;
+  z-index: 3;
+}
+
+.loginboxBurger {
+  margin: 20px 0px 0px 30px;
+  display: flex;
+}
+
+@media (max-width: 1132px) {
+  .burger {
+    display: block;
+  }
+  .panel {
+    display: none;
+  }
+  .nav {
+    margin: 0px 30px;
+  }
+}
+
+@media (max-width: 577px) {
+  .loginbox {
+    display: none;
+  }
+  .nav {
+    justify-content: space-evenly;
+  }
+}
