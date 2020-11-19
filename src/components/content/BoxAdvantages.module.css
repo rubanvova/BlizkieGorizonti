@@ -28,3 +28,36 @@
   right: -500px;
   top: -150px;
 }
+
+@media (max-width: 1203px) {
+  .wrapper {
+    margin: 100px 20px 0px 20px;
+  }
+}
+
+@media (max-width: 1182px) {
+  .wrapper {
+    margin: 100px auto 0px auto;
+    max-width: 600px;
+    flex-wrap: wrap;
+  }
+  .box {
+    margin-top: 20px;
+  }
+  .leaf {
+    z-index: -1;
+  }
+}
+
+@media (max-width: 647px) {
+  .wrapper {
+    margin: 70px 20px 0px 20px;
+  }
+}
+
+@media (max-width: 577px) {
+  .wrapper {
+    margin: 70px auto 0px auto;
+    max-width: 300px;
+  }
+}
