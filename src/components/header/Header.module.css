@@ -60,3 +60,22 @@
   margin-top: 10px;
   color: #ffffff;
 }
+
+@media (max-width: 811px) {
+  .text {
+    left: 10%;
+  }
+}
+
+@media (max-width: 672px) {
+  .text {
+    left: 5%;
+  }
+}
+
+@media (max-width: 672px) {
+  .text {
+    top: 10%;
+    left: 5%;
+  }
+}
